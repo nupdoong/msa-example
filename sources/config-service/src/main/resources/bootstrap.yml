@@ -1,0 +1,9 @@
+#application.yml 보다 먼저 실행
+#postman 에서 확인 가능!
+encrypt:
+  key-store:
+    location: file://${user.home}/Desktop/tstudy/project/booktoy/sources/keystore/apiEncryptionKey.jks
+#    location: file:/apiEncryptionKey.jks
+    password: 1q2w3e4r
+    alias: apiEncryptionKey
+#  key: abcdefghijklmnopqrstuvwxyz1234567890

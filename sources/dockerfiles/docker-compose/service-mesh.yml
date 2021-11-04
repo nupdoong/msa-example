@@ -1,0 +1,41 @@
+version: "3.9"
+services: 
+  config-service:
+    image: linkclean/config-service:2.0
+    ports: 
+      - "8888:8888"
+    environment: 
+      sping.spring.rabbitmq.host: 52.87.50.173
+      spring.profiles.active: git
+    networks: 
+      my-network:
+        ipv4_address: 172.18.0.3
+  service-discovery:
+    image: linkclean/service-discovery:2.0
+    ports: 
+      - "8761:8761"
+    environment: 
+      spring.cloud.config.uri: http://3.231.247.232:8888
+    depends_on:
+      - config-service
+    networks: 
+      my-network:
+        ipv4_address: 172.18.0.4
+  apigateway-service:
+    image: linkclean/apigateway-service:2.0
+    ports: 
+      - "8000:8000"
+    environment: 
+      spring.cloud.config.uri: http://3.231.247.232:8888
+      spring.rabbitmq.host: 52.87.50.173
+      eureka.client.serviceUrl.defaultZone: http://3.231.247.232:8761/eureka/
+    depends_on:
+      - service-discovery
+    networks: 
+      my-network:
+        ipv4_address: 172.18.0.5
+
+networks: 
+  my-network:
+    name: ecommerce-network
+    external: true

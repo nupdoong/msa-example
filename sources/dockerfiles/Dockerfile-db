@@ -1,0 +1,14 @@
+# mariadb -> mydb-image
+# ~/dbdata -> copy -> init db
+# enviroment -> root pw, db name (ENV)
+
+FROM mariadb:latest
+
+ENV MARIADB_ROOT_PASSWORD test1234
+ENV MARIADB_DATABASE bookdb
+
+COPY ./mysql /var/lib/mysql
+
+EXPOSE 3306
+
+CMD [ "mysqld" ]

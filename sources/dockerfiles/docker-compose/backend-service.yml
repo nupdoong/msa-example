@@ -1,0 +1,65 @@
+version: "3.9"
+services: 
+  mariadb:
+    image: linkclean/bookdb:2.0
+    environment: 
+      MARIADB_ROOT_PASSWORD: test1234
+      MARIADB_DATABASE: bookdb
+    ports: 
+      - "3306:3306"
+    networks: 
+      my-network:
+        ipv4_address: 172.18.0.6
+  user-service:
+    image: linkclean/user-service:2.0
+    ports: 
+      - "50001:50001"
+    environment: 
+      spring.cloud.config.uri: http://3.231.247.232:8888
+      eureka.client.serviceUrl.defaultZone: http://3.231.247.232:8761/eureka/
+      spring.datasource.url: jdbc:mariadb://mariadb:3306/bookdb
+      spring.rabbitmq.host: 52.87.50.173
+      spring.zipkin-base-url: http://52.87.50.173:9411
+      logging.file: /api-logs/users-ms.log
+    networks: 
+      my-network:
+        ipv4_address: 172.18.0.8
+  order-service:
+    image: linkclean/order-service:2.0
+    ports: 
+      - "50002:50002"
+    environment: 
+      spring.zipkin.base-url: http://52.87.50.173:9411
+      eureka.client.serviceUrl.defaultZone: http://3.231.247.232:8761/eureka/
+      spring.datasource.url: jdbc:mariadb://mariadb:3306/bookdb
+      logging.file: /api-logs/orders-ws.log"
+    networks: 
+      my-network:
+        ipv4_address: 172.18.0.9
+  catalog-service:
+    image: linkclean/catalog-service:2.0
+    ports: 
+      - "50003:50003"
+    environment: 
+      eureka.client.serviceUrl.defaultZone: http://3.231.247.232:8761/eureka/
+      spring.datasource.url: jdbc:mariadb://mariadb:3306/bookdb
+      logging.file: /api-logs/catalogs-ws.log
+    networks: 
+      my-network:
+        ipv4_address: 172.18.0.10
+  cart-service:
+    image: linkclean/cart-service:2.0
+    ports: 
+      - "50004:50004"
+    environment: 
+      eureka.client.serviceUrl.defaultZone: http://3.231.247.232:8761/eureka/
+      spring.datasource.url: jdbc:mariadb://mariadb:3306/bookdb
+      logging.file: /api-logs/cart-ws.log
+    networks: 
+      my-network:
+        ipv4_address: 172.18.0.11
+
+networks: 
+  my-network:
+    name: ecommerce-network
+    external: true

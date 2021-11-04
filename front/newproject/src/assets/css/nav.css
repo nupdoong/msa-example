@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 200px;
+    position: fixed;
+    top: 12;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #fff;
+    color:#a749ff;
+    transition: all 0.3s;
+}

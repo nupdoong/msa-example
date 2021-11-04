@@ -1,0 +1,374 @@
+2021-06-30T06:30:13.6NZ mysqld_safe Logging to '/opt/homebrew/var/mysql/jaewonucBookAir.err'.
+2021-06-30T06:30:13.6NZ mysqld_safe Starting mysqld daemon with databases from /opt/homebrew/var/mysql
+2021-06-30T06:30:13.188101Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-06-30T06:30:13.190043Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2021-06-30T06:30:13.191475Z 0 [Note] /opt/homebrew/Cellar/mysql@5.7/5.7.34/bin/mysqld (mysqld 5.7.34) starting as process 9657 ...
+2021-06-30T06:30:13.195072Z 0 [Warning] Setting lower_case_table_names=2 because file system for /opt/homebrew/var/mysql/ is case insensitive
+2021-06-30T06:30:13.196999Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-06-30T06:30:13.197009Z 0 [Note] InnoDB: Uses event mutexes
+2021-06-30T06:30:13.197013Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-06-30T06:30:13.197017Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-06-30T06:30:13.197825Z 0 [Note] InnoDB: Number of pools: 1
+2021-06-30T06:30:13.198469Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2021-06-30T06:30:13.199094Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-06-30T06:30:13.203864Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-30T06:30:13.221029Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-06-30T06:30:13.243103Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-06-30T06:30:13.243166Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-06-30T06:30:13.248276Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-06-30T06:30:13.248582Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2021-06-30T06:30:13.248588Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2021-06-30T06:30:13.250346Z 0 [Note] InnoDB: Waiting for purge to start
+2021-06-30T06:30:13.305405Z 0 [Note] InnoDB: 5.7.34 started; log sequence number 2747334
+2021-06-30T06:30:13.305516Z 0 [Note] InnoDB: Loading buffer pool(s) from /opt/homebrew/var/mysql/ib_buffer_pool
+2021-06-30T06:30:13.306895Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2021-06-30T06:30:13.312689Z 0 [Note] InnoDB: Buffer pool(s) load completed at 210630 15:30:13
+2021-06-30T06:30:13.320293Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2021-06-30T06:30:13.320300Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2021-06-30T06:30:13.322600Z 0 [Warning] CA certificate ca.pem is self signed.
+2021-06-30T06:30:13.323013Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2021-06-30T06:30:13.328276Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2021-06-30T06:30:13.328298Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2021-06-30T06:30:13.328354Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2021-06-30T06:30:13.345649Z 0 [Note] Event Scheduler: Loaded 0 events
+2021-06-30T06:30:13.345731Z 0 [Note] /opt/homebrew/Cellar/mysql@5.7/5.7.34/bin/mysqld: ready for connections.
+Version: '5.7.34'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew
+2021-06-30T06:31:23.746088Z 2 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2021-06-30T06:31:37.179702Z 3 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2021-06-30T06:49:52.6NZ mysqld_safe Logging to '/opt/homebrew/var/mysql/jaewonucBookAir.err'.
+2021-06-30T06:49:52.6NZ mysqld_safe A mysqld process already exists
+2021-06-30T06:50:36.6NZ mysqld_safe Logging to '/opt/homebrew/var/mysql/jaewonucBookAir.err'.
+2021-06-30T06:50:36.6NZ mysqld_safe A mysqld process already exists
+2021-06-30T06:50:59.6NZ mysqld_safe Logging to '/opt/homebrew/var/mysql/jaewonucBookAir.err'.
+2021-06-30T06:50:59.6NZ mysqld_safe A mysqld process already exists
+2021-06-30T06:51:53.6NZ mysqld_safe Logging to '/opt/homebrew/var/mysql/jaewonucBookAir.err'.
+2021-06-30T06:51:53.6NZ mysqld_safe A mysqld process already exists
+2021-06-30T06:52:32.857834Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2021-06-30T06:52:32.858021Z 0 [Note] Shutting down slave threads
+2021-06-30T06:52:32.858680Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2021-06-30T06:52:32.858698Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-06-30T06:52:32.858736Z 0 [Note] Binlog end
+2021-06-30T06:52:32.897332Z 0 [Note] Shutting down plugin 'ngram'
+2021-06-30T06:52:32.897672Z 0 [Note] Shutting down plugin 'partition'
+2021-06-30T06:52:32.897692Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2021-06-30T06:52:32.897706Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2021-06-30T06:52:32.897718Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2021-06-30T06:52:32.897755Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2021-06-30T06:52:32.897779Z 0 [Note] Shutting down plugin 'MyISAM'
+2021-06-30T06:52:32.897885Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2021-06-30T06:52:32.897908Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2021-06-30T06:52:32.897934Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2021-06-30T06:52:32.897952Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2021-06-30T06:52:32.897968Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2021-06-30T06:52:32.897979Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2021-06-30T06:52:32.897989Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2021-06-30T06:52:32.898001Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2021-06-30T06:52:32.898013Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2021-06-30T06:52:32.898029Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2021-06-30T06:52:32.898042Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2021-06-30T06:52:32.898061Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2021-06-30T06:52:32.898079Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2021-06-30T06:52:32.898099Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2021-06-30T06:52:32.898115Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2021-06-30T06:52:32.898131Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2021-06-30T06:52:32.898142Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2021-06-30T06:52:32.898153Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2021-06-30T06:52:32.898171Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2021-06-30T06:52:32.898186Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2021-06-30T06:52:32.898208Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2021-06-30T06:52:32.898230Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2021-06-30T06:52:32.898245Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2021-06-30T06:52:32.898263Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2021-06-30T06:52:32.898274Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2021-06-30T06:52:32.898284Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2021-06-30T06:52:32.898295Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2021-06-30T06:52:32.898305Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2021-06-30T06:52:32.898316Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2021-06-30T06:52:32.898327Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2021-06-30T06:52:32.898338Z 0 [Note] Shutting down plugin 'InnoDB'
+2021-06-30T06:52:32.898403Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-06-30T06:52:32.898494Z 0 [Note] InnoDB: Starting shutdown...
+2021-06-30T06:52:33.003967Z 0 [Note] InnoDB: Dumping buffer pool(s) to /opt/homebrew/var/mysql/ib_buffer_pool
+2021-06-30T06:52:33.007242Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 210630 15:52:33
+2021-06-30T06:52:34.274353Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2747362
+2021-06-30T06:52:34.274659Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-06-30T06:52:34.274698Z 0 [Note] Shutting down plugin 'MEMORY'
+2021-06-30T06:52:34.274732Z 0 [Note] Shutting down plugin 'CSV'
+2021-06-30T06:52:34.274742Z 0 [Note] Shutting down plugin 'sha256_password'
+2021-06-30T06:52:34.274750Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2021-06-30T06:52:34.274985Z 0 [Note] Shutting down plugin 'binlog'
+2021-06-30T06:52:34.276375Z 0 [Note] /opt/homebrew/Cellar/mysql@5.7/5.7.34/bin/mysqld: Shutdown complete
+
+2021-06-30T06:52:34.6NZ mysqld_safe mysqld from pid file /opt/homebrew/var/mysql/jaewonucBookAir.pid ended
+2021-06-30T06:52:35.6NZ mysqld_safe Logging to '/opt/homebrew/var/mysql/jaewonucBookAir.err'.
+2021-06-30T06:52:35.6NZ mysqld_safe Starting mysqld daemon with databases from /opt/homebrew/var/mysql
+2021-06-30T06:52:35.681355Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-06-30T06:52:35.681517Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2021-06-30T06:52:35.681536Z 0 [Note] /opt/homebrew/Cellar/mysql@5.7/5.7.34/bin/mysqld (mysqld 5.7.34) starting as process 11121 ...
+2021-06-30T06:52:35.683532Z 0 [Warning] Setting lower_case_table_names=2 because file system for /opt/homebrew/var/mysql/ is case insensitive
+2021-06-30T06:52:35.685471Z 0 [Warning] One can only use the --user switch if running as root
+
+2021-06-30T06:52:35.686019Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-06-30T06:52:35.686027Z 0 [Note] InnoDB: Uses event mutexes
+2021-06-30T06:52:35.686032Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-06-30T06:52:35.686035Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-06-30T06:52:35.686442Z 0 [Note] InnoDB: Number of pools: 1
+2021-06-30T06:52:35.686478Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2021-06-30T06:52:35.686943Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-06-30T06:52:35.690474Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-30T06:52:35.705311Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-06-30T06:52:35.714485Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-06-30T06:52:35.714551Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-06-30T06:52:35.718979Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-06-30T06:52:35.719315Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2021-06-30T06:52:35.719323Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2021-06-30T06:52:35.719411Z 0 [Note] InnoDB: Waiting for purge to start
+2021-06-30T06:52:35.774554Z 0 [Note] InnoDB: 5.7.34 started; log sequence number 2747362
+2021-06-30T06:52:35.774671Z 0 [Note] InnoDB: Loading buffer pool(s) from /opt/homebrew/var/mysql/ib_buffer_pool
+2021-06-30T06:52:35.774804Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2021-06-30T06:52:35.776807Z 0 [ERROR] /opt/homebrew/Cellar/mysql@5.7/5.7.34/bin/mysqld: unknown option '-p'
+2021-06-30T06:52:35.776817Z 0 [ERROR] Aborting
+
+2021-06-30T06:52:35.776824Z 0 [Note] Binlog end
+2021-06-30T06:52:35.776854Z 0 [Note] Shutting down plugin 'ngram'
+2021-06-30T06:52:35.776862Z 0 [Note] Shutting down plugin 'partition'
+2021-06-30T06:52:35.776867Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2021-06-30T06:52:35.776872Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2021-06-30T06:52:35.776876Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2021-06-30T06:52:35.776901Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2021-06-30T06:52:35.776906Z 0 [Note] Shutting down plugin 'MyISAM'
+2021-06-30T06:52:35.776933Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2021-06-30T06:52:35.776938Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2021-06-30T06:52:35.776943Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2021-06-30T06:52:35.776948Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2021-06-30T06:52:35.776972Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2021-06-30T06:52:35.776976Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2021-06-30T06:52:35.776979Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2021-06-30T06:52:35.776982Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2021-06-30T06:52:35.776985Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2021-06-30T06:52:35.776987Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2021-06-30T06:52:35.776990Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2021-06-30T06:52:35.776993Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2021-06-30T06:52:35.776996Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2021-06-30T06:52:35.776999Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2021-06-30T06:52:35.777002Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2021-06-30T06:52:35.777005Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2021-06-30T06:52:35.777008Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2021-06-30T06:52:35.777011Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2021-06-30T06:52:35.777014Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2021-06-30T06:52:35.777017Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2021-06-30T06:52:35.777020Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2021-06-30T06:52:35.777023Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2021-06-30T06:52:35.777026Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2021-06-30T06:52:35.777029Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2021-06-30T06:52:35.777032Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2021-06-30T06:52:35.777037Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2021-06-30T06:52:35.777040Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2021-06-30T06:52:35.777043Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2021-06-30T06:52:35.777046Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2021-06-30T06:52:35.777049Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2021-06-30T06:52:35.777052Z 0 [Note] Shutting down plugin 'InnoDB'
+2021-06-30T06:52:35.777065Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-06-30T06:52:35.777100Z 0 [Note] InnoDB: Starting shutdown...
+2021-06-30T06:52:35.777129Z 0 [Note] InnoDB: Buffer pool(s) load completed at 210630 15:52:35
+2021-06-30T06:52:35.777168Z 0 [Note] InnoDB: Dumping buffer pool(s) to /opt/homebrew/var/mysql/ib_buffer_pool
+2021-06-30T06:52:35.777460Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 210630 15:52:35
+2021-06-30T06:52:37.252031Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2747381
+2021-06-30T06:52:37.252399Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-06-30T06:52:37.252432Z 0 [Note] Shutting down plugin 'MEMORY'
+2021-06-30T06:52:37.252457Z 0 [Note] Shutting down plugin 'CSV'
+2021-06-30T06:52:37.252472Z 0 [Note] Shutting down plugin 'sha256_password'
+2021-06-30T06:52:37.252482Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2021-06-30T06:52:37.252938Z 0 [Note] Shutting down plugin 'binlog'
+2021-06-30T06:52:37.253875Z 0 [Note] /opt/homebrew/Cellar/mysql@5.7/5.7.34/bin/mysqld: Shutdown complete
+
+2021-06-30T06:52:37.6NZ mysqld_safe mysqld from pid file /opt/homebrew/var/mysql/jaewonucBookAir.pid ended
+2021-06-30T07:03:13.6NZ mysqld_safe Logging to '/opt/homebrew/var/mysql/jaewonucBookAir.err'.
+2021-06-30T07:03:13.6NZ mysqld_safe Starting mysqld daemon with databases from /opt/homebrew/var/mysql
+2021-06-30T07:03:13.715045Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-06-30T07:03:13.715237Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2021-06-30T07:03:13.715705Z 0 [Note] /opt/homebrew/Cellar/mysql@5.7/5.7.34/bin/mysqld (mysqld 5.7.34) starting as process 11269 ...
+2021-06-30T07:03:13.720242Z 0 [Warning] Setting lower_case_table_names=2 because file system for /opt/homebrew/var/mysql/ is case insensitive
+2021-06-30T07:03:13.721820Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-06-30T07:03:13.721827Z 0 [Note] InnoDB: Uses event mutexes
+2021-06-30T07:03:13.721830Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-06-30T07:03:13.721833Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-06-30T07:03:13.722521Z 0 [Note] InnoDB: Number of pools: 1
+2021-06-30T07:03:13.723160Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2021-06-30T07:03:13.723827Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-06-30T07:03:13.727750Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-30T07:03:13.744732Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-06-30T07:03:13.754832Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-06-30T07:03:13.754896Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-06-30T07:03:13.761917Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-06-30T07:03:13.762256Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2021-06-30T07:03:13.762261Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2021-06-30T07:03:13.762383Z 0 [Note] InnoDB: Waiting for purge to start
+2021-06-30T07:03:13.817441Z 0 [Note] InnoDB: 5.7.34 started; log sequence number 2747381
+2021-06-30T07:03:13.817575Z 0 [Note] InnoDB: Loading buffer pool(s) from /opt/homebrew/var/mysql/ib_buffer_pool
+2021-06-30T07:03:13.818806Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2021-06-30T07:03:13.823487Z 0 [Note] InnoDB: Buffer pool(s) load completed at 210630 16:03:13
+2021-06-30T07:03:13.828273Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2021-06-30T07:03:13.828283Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2021-06-30T07:03:13.829449Z 0 [Warning] CA certificate ca.pem is self signed.
+2021-06-30T07:03:13.829526Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2021-06-30T07:03:13.834434Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2021-06-30T07:03:13.834455Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2021-06-30T07:03:13.834518Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2021-06-30T07:03:13.850444Z 0 [Note] Event Scheduler: Loaded 0 events
+2021-06-30T07:03:13.850505Z 0 [Note] /opt/homebrew/Cellar/mysql@5.7/5.7.34/bin/mysqld: ready for connections.
+Version: '5.7.34'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew
+2021-06-30T08:00:27.600864Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 56455ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-01T00:05:58.6NZ mysqld_safe Logging to '/opt/homebrew/var/mysql/jaewonucBookAir.err'.
+2021-07-01T00:05:58.6NZ mysqld_safe Starting mysqld daemon with databases from /opt/homebrew/var/mysql
+2021-07-01T00:05:59.043507Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-07-01T00:05:59.043905Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2021-07-01T00:05:59.044113Z 0 [Note] /opt/homebrew/Cellar/mysql@5.7/5.7.34/bin/mysqld (mysqld 5.7.34) starting as process 957 ...
+2021-07-01T00:05:59.048938Z 0 [Warning] Setting lower_case_table_names=2 because file system for /opt/homebrew/var/mysql/ is case insensitive
+2021-07-01T00:05:59.051154Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-07-01T00:05:59.051164Z 0 [Note] InnoDB: Uses event mutexes
+2021-07-01T00:05:59.051169Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-07-01T00:05:59.051172Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-07-01T00:05:59.051932Z 0 [Note] InnoDB: Number of pools: 1
+2021-07-01T00:05:59.052353Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2021-07-01T00:05:59.052878Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-07-01T00:05:59.056363Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-07-01T00:05:59.072235Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-07-01T00:05:59.074018Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2747416
+2021-07-01T00:05:59.074027Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2747425
+2021-07-01T00:05:59.074030Z 0 [Note] InnoDB: Database was not shutdown normally!
+2021-07-01T00:05:59.074033Z 0 [Note] InnoDB: Starting crash recovery.
+2021-07-01T00:05:59.197337Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-07-01T00:05:59.197358Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-07-01T00:05:59.197473Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-07-01T00:05:59.202530Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-07-01T00:05:59.203012Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2021-07-01T00:05:59.203020Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2021-07-01T00:05:59.203207Z 0 [Note] InnoDB: Waiting for purge to start
+2021-07-01T00:05:59.258310Z 0 [Note] InnoDB: 5.7.34 started; log sequence number 2747425
+2021-07-01T00:05:59.258465Z 0 [Note] InnoDB: Loading buffer pool(s) from /opt/homebrew/var/mysql/ib_buffer_pool
+2021-07-01T00:05:59.259475Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2021-07-01T00:05:59.261503Z 0 [Note] InnoDB: Buffer pool(s) load completed at 210701  9:05:59
+2021-07-01T00:05:59.267737Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2021-07-01T00:05:59.267751Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2021-07-01T00:05:59.269207Z 0 [Warning] CA certificate ca.pem is self signed.
+2021-07-01T00:05:59.269311Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2021-07-01T00:05:59.276873Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2021-07-01T00:05:59.276912Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2021-07-01T00:05:59.277009Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2021-07-01T00:05:59.296395Z 0 [Note] Event Scheduler: Loaded 0 events
+2021-07-01T00:05:59.296482Z 0 [Note] /opt/homebrew/Cellar/mysql@5.7/5.7.34/bin/mysqld: ready for connections.
+Version: '5.7.34'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew
+2021-07-01T00:21:27.652079Z 3 [Note] Bad handshake
+2021-07-01T00:22:29.122304Z 4 [Note] Bad handshake
+2021-07-01T00:22:49.912554Z 5 [Note] Bad handshake
+2021-07-01T00:28:04.786865Z 6 [Note] Aborted connection 6 to db: 'javadb' user: 'javauser' host: 'localhost' (Got an error reading communication packets)
+2021-07-01T01:03:16.423085Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 667962ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-01T01:51:51.280341Z 17 [Note] Aborted connection 17 to db: 'javadb' user: 'javauser' host: 'localhost' (Got an error reading communication packets)
+2021-07-01T02:09:25.778067Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 744029ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-01T02:57:43.840182Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 910846ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-01T03:15:32.599015Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1064812ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-01T03:32:57.364825Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1039681ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-01T03:35:03.286333Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 121882ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-01T03:51:09.438248Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 961129ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-01T04:00:53.344314Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 578867ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-01T05:02:57.253775Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 773685ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-01T06:10:40.039184Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 34665ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-01T07:06:54.643237Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 807030ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-01T07:40:15.183309Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 38567ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-01T07:40:34.710994Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10452ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-01T07:57:13.669351Z 57 [Note] Aborted connection 57 to db: 'javadb' user: 'javauser' host: 'localhost' (Got an error reading communication packets)
+2021-07-01T08:18:47.924886Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 539697ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-01T08:51:54.321532Z 8 [Note] Aborted connection 8 to db: 'unconnected' user: 'javauser' host: 'localhost' (Got an error reading communication packets)
+2021-07-02T01:24:28.6NZ mysqld_safe Logging to '/opt/homebrew/var/mysql/jaewonucBookAir.err'.
+2021-07-02T01:24:28.6NZ mysqld_safe Starting mysqld daemon with databases from /opt/homebrew/var/mysql
+2021-07-02T01:24:28.823448Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-07-02T01:24:28.823805Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2021-07-02T01:24:28.824030Z 0 [Note] /opt/homebrew/Cellar/mysql@5.7/5.7.34/bin/mysqld (mysqld 5.7.34) starting as process 953 ...
+2021-07-02T01:24:28.828036Z 0 [Warning] Setting lower_case_table_names=2 because file system for /opt/homebrew/var/mysql/ is case insensitive
+2021-07-02T01:24:28.830404Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-07-02T01:24:28.830416Z 0 [Note] InnoDB: Uses event mutexes
+2021-07-02T01:24:28.830420Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-07-02T01:24:28.830424Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-07-02T01:24:28.831225Z 0 [Note] InnoDB: Number of pools: 1
+2021-07-02T01:24:28.831686Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2021-07-02T01:24:28.832195Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-07-02T01:24:28.835732Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-07-02T01:24:28.851934Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-07-02T01:24:28.853515Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2747444
+2021-07-02T01:24:28.853523Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2747453
+2021-07-02T01:24:28.853528Z 0 [Note] InnoDB: Database was not shutdown normally!
+2021-07-02T01:24:28.853532Z 0 [Note] InnoDB: Starting crash recovery.
+2021-07-02T01:24:28.977614Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-07-02T01:24:28.977637Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-07-02T01:24:28.977754Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-07-02T01:24:28.983057Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-07-02T01:24:28.983553Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2021-07-02T01:24:28.983561Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2021-07-02T01:24:28.983749Z 0 [Note] InnoDB: Waiting for purge to start
+2021-07-02T01:24:29.038879Z 0 [Note] InnoDB: 5.7.34 started; log sequence number 2747453
+2021-07-02T01:24:29.039068Z 0 [Note] InnoDB: Loading buffer pool(s) from /opt/homebrew/var/mysql/ib_buffer_pool
+2021-07-02T01:24:29.040130Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2021-07-02T01:24:29.042145Z 0 [Note] InnoDB: Buffer pool(s) load completed at 210702 10:24:29
+2021-07-02T01:24:29.047007Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2021-07-02T01:24:29.047023Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2021-07-02T01:24:29.048628Z 0 [Warning] CA certificate ca.pem is self signed.
+2021-07-02T01:24:29.048743Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2021-07-02T01:24:29.054444Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2021-07-02T01:24:29.054478Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2021-07-02T01:24:29.054566Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2021-07-02T01:24:29.075467Z 0 [Note] Event Scheduler: Loaded 0 events
+2021-07-02T01:24:29.075566Z 0 [Note] /opt/homebrew/Cellar/mysql@5.7/5.7.34/bin/mysqld: ready for connections.
+Version: '5.7.34'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew
+2021-07-02T01:45:20.6NZ mysqld_safe Logging to '/opt/homebrew/var/mysql/jaewonucBookAir.err'.
+2021-07-02T01:45:20.6NZ mysqld_safe Starting mysqld daemon with databases from /opt/homebrew/var/mysql
+2021-07-02T01:45:20.673245Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-07-02T01:45:20.674124Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2021-07-02T01:45:20.674677Z 0 [Note] /opt/homebrew/Cellar/mysql@5.7/5.7.34/bin/mysqld (mysqld 5.7.34) starting as process 1189 ...
+2021-07-02T01:45:20.684666Z 0 [Warning] Setting lower_case_table_names=2 because file system for /opt/homebrew/var/mysql/ is case insensitive
+2021-07-02T01:45:20.695577Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-07-02T01:45:20.695608Z 0 [Note] InnoDB: Uses event mutexes
+2021-07-02T01:45:20.695613Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-07-02T01:45:20.695617Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-07-02T01:45:20.696480Z 0 [Note] InnoDB: Number of pools: 1
+2021-07-02T01:45:20.697533Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2021-07-02T01:45:20.698203Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-07-02T01:45:20.702650Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-07-02T01:45:20.719098Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-07-02T01:45:20.720652Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2747472
+2021-07-02T01:45:20.720667Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2747481
+2021-07-02T01:45:20.720672Z 0 [Note] InnoDB: Database was not shutdown normally!
+2021-07-02T01:45:20.720675Z 0 [Note] InnoDB: Starting crash recovery.
+2021-07-02T01:45:20.845123Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-07-02T01:45:20.845143Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-07-02T01:45:20.845223Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-07-02T01:45:20.850522Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-07-02T01:45:20.851018Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2021-07-02T01:45:20.851127Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2021-07-02T01:45:20.851349Z 0 [Note] InnoDB: Waiting for purge to start
+2021-07-02T01:45:20.906489Z 0 [Note] InnoDB: 5.7.34 started; log sequence number 2747481
+2021-07-02T01:45:20.908412Z 0 [Note] InnoDB: Loading buffer pool(s) from /opt/homebrew/var/mysql/ib_buffer_pool
+2021-07-02T01:45:20.909334Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2021-07-02T01:45:20.910815Z 0 [Note] InnoDB: Buffer pool(s) load completed at 210702 10:45:20
+2021-07-02T01:45:20.949418Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2021-07-02T01:45:20.949673Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2021-07-02T01:45:20.951656Z 0 [Warning] CA certificate ca.pem is self signed.
+2021-07-02T01:45:20.951783Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2021-07-02T01:45:20.963225Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2021-07-02T01:45:20.963274Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2021-07-02T01:45:20.963383Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2021-07-02T01:45:20.985229Z 0 [Note] Event Scheduler: Loaded 0 events
+2021-07-02T01:45:20.985329Z 0 [Note] /opt/homebrew/Cellar/mysql@5.7/5.7.34/bin/mysqld: ready for connections.
+Version: '5.7.34'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew
+2021-07-02T01:45:26.258096Z 2 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2021-07-02T02:11:06.283474Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 557640ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T02:49:35.306503Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 928570ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T03:13:34.847503Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1435649ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T03:52:17.510421Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2318621ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T03:57:36.946547Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 315461ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T05:05:12.934792Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 76955ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T05:11:07.884729Z 6 [Note] Aborted connection 6 to db: 'unconnected' user: 'javauser' host: 'localhost' (Got an error reading communication packets)
+2021-07-02T06:07:16.454436Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 229194ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T07:19:17.080324Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 441485ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T07:20:19.766270Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 18434ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T08:04:31.472413Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 387964ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
